@@ -54,6 +54,28 @@ This MVP is local-file based, read-only, and deterministic.
 
 ---
 
+## Install from GitHub Releases
+
+Download a prebuilt binary from the [GitHub Releases page](https://github.com/forestian/K8s-Resource-Request-Recommender/releases).
+
+**Linux / macOS:**
+```sh
+tar -xzf krr-lite_<version>_<os>_<arch>.tar.gz
+chmod +x krr-lite
+./krr-lite version
+```
+
+**Windows:**
+```sh
+# Extract the archive, then run:
+krr-lite.exe version
+```
+
+Prebuilt binaries are available for: `linux/amd64`, `linux/arm64`, `darwin/amd64`, `darwin/arm64`, `windows/amd64`, `windows/arm64`.
+Each release includes a `checksums.txt` for verification.
+
+---
+
 ## Install
 
 ### From source
