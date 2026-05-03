@@ -1,0 +1,4 @@
+cluster,namespace,workload_kind,workload_name,container_name,team,service,environment,current_cpu_request_mcores,current_memory_request_mib,current_cpu_limit_mcores,current_memory_limit_mib,cpu_p50_mcores,cpu_p95_mcores,cpu_p99_mcores,cpu_max_mcores,memory_p50_mib,memory_p95_mib,memory_p99_mib,memory_max_mib,samples,window
+prod-kr,default,Deployment,api,api,platform,api,production,500,1024,1000,2048,80,160,220,300,300,520,650,800,720,7d
+prod-kr,default,Deployment,worker,worker,platform,worker,production,1000,2048,2000,4096,120,250,320,450,500,900,1100,1300,720,7d
+prod-kr,monitoring,StatefulSet,loki,loki,platform,observability,production,2000,4096,4000,8192,900,1800,2200,2600,2500,3800,4500,5200,720,7d

@@ -1,0 +1,39 @@
+# Build artifacts
+krr-lite
+krr-lite.exe
+*.exe
+*.test
+
+# Test-generated output (run `krr-lite init` or `krr-lite recommend` to regenerate)
+krr-demo/
+generated/
+test-output/
+recommendations.md
+recommendations.json
+recommendations.csv
+
+# Go toolchain
+vendor/
+
+# Sensitive files — never commit
+.env
+*.env.*
+kubeconfig
+*kubeconfig*
+*.kubeconfig
+secrets/
+credentials/
+*.token
+*.key
+*.pem
+*.crt
+*.p12
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code internal
+.claude/
